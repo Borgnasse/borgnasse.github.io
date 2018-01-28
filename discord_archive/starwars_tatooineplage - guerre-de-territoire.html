@@ -1,0 +1,484 @@
+﻿<!-- https://github.com/Tyrrrz/DiscordChatExporter -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>starwars/tatooineplage - guerre-de-territoire</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<style>body {
+    background-color: #36393E;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: #0096CF;
+    text-decoration: none;
+}
+
+a:hover { text-decoration: underline; }
+
+div.pre {
+    background-color: #2F3136;
+    color: rgb(131, 148, 150);
+    font-family: Consolas, Courier New, Courier, Monospace;
+    margin-top: 4px;
+    padding: 8px;
+    white-space: pre-wrap;
+}
+
+span.pre {
+    background-color: #2F3136;
+    font-family: Consolas, Courier New, Courier, Monospace;
+    padding-left: 2px;
+    padding-right: 2px;
+    white-space: pre-wrap;
+}
+
+div#info {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 100%;
+}
+
+div#log { max-width: 100%; }
+
+img.guild-icon {
+    max-height: 64px;
+    max-width: 64px;
+}
+
+div.info-right {
+    flex: 1;
+    margin-left: 10px;
+}
+
+div.guild-name {
+    color: #FFFFFF;
+    font-size: 1.4rem;
+}
+
+div.channel-name {
+    color: #FFFFFF;
+    font-size: 1.2rem;
+}
+
+div.misc { margin-top: 2px; }
+
+div.msg {
+    border-top: 1px solid rgba(255, 255, 255, 0.04);
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+div.msg-left {
+    height: 40px;
+    width: 40px;
+}
+
+img.msg-avatar {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+div.msg-right {
+    flex: 1;
+    margin-left: 20px;
+}
+
+span.msg-user {
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+span.msg-date {
+    color: rgba(255, 255, 255, 0.2);
+    font-size: .75rem;
+    margin-left: 5px;
+}
+
+span.msg-edited {
+    color: rgba(255, 255, 255, 0.2);
+    font-size: .8rem;
+    margin-left: 5px;
+}
+
+div.msg-content {
+    font-size: .9375rem;
+    padding-top: 5px;
+    word-break: break-all;
+}
+
+div.msg-attachment {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+img.msg-attachment {
+    max-height: 500px;
+    max-width: 50%;
+}
+
+img.emoji {
+    height: 24px;
+    width: 24px;
+    vertical-align: -.4em;
+}
+
+span.mention {
+    font-weight: 600;
+}</style>
+</head>
+<body>
+<div id="info">
+<div class="info-left">
+<img class="guild-icon" src="https://cdn.discordapp.com/icons/372722367555698699/ef8dc2d1cf7868f73ce2a2b5e3e24089.png" />
+</div>
+<div class="info-right">
+<div class="guild-name">starwars/tatooineplage</div>
+<div class="channel-name">guerre-de-territoire</div>
+<div class="misc">34 messages</div>
+</div>
+</div>
+<div id="log">
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">15-d&#233;c.-17 08:50 </span>
+<div class="msg-content">
+Conseils de teams pour battre les &#233;quipes Phoenix:<br /> - Team Premier Ordre<br /> - Team Ewoks (Chirpa Lead) - Logray Daze<br /> - Maul (AOE Daze) / Sith (Palpatine Lead)<br /> - Clones<br /> - Team Empire<br /> - NightSisters<br /> - Jawas</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/200340982472900609/5f213a177303b83dda20c15450ab7713.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Loumnik Paagrio#9666">Loumnik Paagrio</span>
+<span class="msg-date">12-janv.-18 10:55 </span>
+<div class="msg-content">
+<span class="mention" title="neomike#4563">@neomike</span> Pour les r&#233;compenses regarde il y a deux param&#232;tres :<br />1 - Puissance galactique de la guilde (prenant juste en compte les inscrits).<br />2 - Premier (Gagnant) et Deuxieme (Perdant)<span class="msg-edited" title="12-janv.-18 11:04 ">(edited)</span></div>
+<div class="msg-attachment">
+<a href="https://cdn.discordapp.com/attachments/385436122597163008/401313218775089152/Screenshot_20180112-105117.jpg">
+<img class="msg-attachment" src="https://cdn.discordapp.com/attachments/385436122597163008/401313218775089152/Screenshot_20180112-105117.jpg" />
+</a>
+</div>
+<div class="msg-attachment">
+<a href="https://cdn.discordapp.com/attachments/385436122597163008/401313316565155840/Screenshot_20180112-105052.jpg">
+<img class="msg-attachment" src="https://cdn.discordapp.com/attachments/385436122597163008/401313316565155840/Screenshot_20180112-105052.jpg" />
+</a>
+</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">12-janv.-18 10:57 </span>
+<div class="msg-content">
+<span class="mention" title="Loumnik Paagrio#9666">@Loumnik Paagrio</span> c&#39;est la Puissance Galactique uniquement de ceux qui se sont inscrits sur la TW &#128515; <br />Il para&#238;t qu&#39;il y a m&#234;me des guildes tr&#232;s haut niveau qui inscrivent expr&#232;s moins de joueurs pour tomber contre des guildes moins fortes et les exploser...</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/embed/avatars/3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="neomike#4563">neomike</span>
+<span class="msg-date">12-janv.-18 10:59 </span>
+<div class="msg-content">
+Merci j&#39;avais m&#234;me pas vu qu&#39;il y avait un onglet 1er et 2eme place</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/200340982472900609/5f213a177303b83dda20c15450ab7713.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Loumnik Paagrio#9666">Loumnik Paagrio</span>
+<span class="msg-date">12-janv.-18 10:59 </span>
+<div class="msg-content">
+<span class="mention" title="Borgnasse#4598">@Borgnasse</span> Oui tu fais bien de preciser c&#39;etait pour repondre a une question de <span class="mention" title="neomike#4563">@neomike</span>  Ingame qui demande l&#39;utilit&#233; de gagner ou de perdre au niveau des recompences. Les recompenses des gagants sont mieux.<span class="msg-edited" title="12-janv.-18 11:00 ">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/374141262036729857/0091145ecc9df761131bb44dc068efae.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Clochiotte#2681">Clochiotte</span>
+<span class="msg-date">23-janv.-18 07:41 </span>
+<div class="msg-content">
+⚠ Bonsoir les <span class="mention">@Membres</span> !<br />En vue de la prochaine guerre de territoire qui est annonc&#233;e, les membres qui poss&#232;dent moins de 10 toons dont la PG est sup&#233;rieure &#224; 6 000 PG sont invit&#233;s &#224; ne pas s&#39;y inscrire.<br />L&#39;id&#233;e ce que : Pour participer &#224; un tel &#233;venement, il est essentiel de pouvoir disposer d&#39;au moins deux escouades de  cinq toons (une pour l&#39;attaque et une pour la d&#233;fense).<br />Bonne soir&#233;e &#224; tous ! Que la force soit avec vous ! <img class="emoji" title=":lightsaber:" src="https://cdn.discordapp.com/emojis/403631716067049482.png" /><span class="msg-edited" title="23-janv.-18 09:53 ">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">23-janv.-18 09:39 </span>
+<div class="msg-content">
+Scores de la derni&#232;re guerre de territoire</div>
+<div class="msg-attachment">
+<a href="https://cdn.discordapp.com/attachments/385436122597163008/405461552536223744/TatooinePlage_Roster_Officiers_-_TW.jpg">
+<img class="msg-attachment" src="https://cdn.discordapp.com/attachments/385436122597163008/405461552536223744/TatooinePlage_Roster_Officiers_-_TW.jpg" />
+</a>
+</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/375236799271927808/b662a83ef28cc8711965869dba242dbf.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Floxy#9532">Floxy</span>
+<span class="msg-date">25-janv.-18 02:19 </span>
+<div class="msg-content">
+Et sinon on en parle de <span class="mention" title="Modymox#3832">@Modymox</span> qui a Jedi Knight Guardian 7* g8 ?? &#128561;&#128514;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/374141262036729857/0091145ecc9df761131bb44dc068efae.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Clochiotte#2681">Clochiotte</span>
+<span class="msg-date">25-janv.-18 02:20 </span>
+<div class="msg-content">
+C&#39;est pas la seule...</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/375236799271927808/b662a83ef28cc8711965869dba242dbf.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Floxy#9532">Floxy</span>
+<span class="msg-date">25-janv.-18 02:21 </span>
+<div class="msg-content">
+Damned</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/374141262036729857/0091145ecc9df761131bb44dc068efae.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Clochiotte#2681">Clochiotte</span>
+<span class="msg-date">25-janv.-18 02:22 </span>
+<div class="msg-content">
+Je pense que y a une &#233;poque o&#249; ce fucking toon devait servir lors d&#39;un event... ^^</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/299607692211912706/19376b24f5cbe15444ff598ad603e608.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ranglino#4378">ranglino</span>
+<span class="msg-date">27-janv.-18 07:19 </span>
+<div class="msg-content">
+Pour Yoda je crois</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/372407313111187456/0f8a379780cac1df8703d361a6a1ad11.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Modymox#3832">Modymox</span>
+<span class="msg-date">27-janv.-18 07:19 </span>
+<div class="msg-content">
+ezactement mais bon, j aurais pus en monter un autre ceci dit ...</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/374141262036729857/0091145ecc9df761131bb44dc068efae.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Clochiotte#2681">Clochiotte</span>
+<span class="msg-date">27-janv.-18 07:22 </span>
+<div class="msg-content">
+Rassure toi <span class="mention" title="Modymox#3832">@Modymox</span> , moi aussi j&#39;avais mont&#233; celui l&#224; &#128515;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/372407313111187456/0f8a379780cac1df8703d361a6a1ad11.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Modymox#3832">Modymox</span>
+<span class="msg-date">27-janv.-18 07:23 </span>
+<div class="msg-content">
+puis il se monte si facilement</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/299607692211912706/19376b24f5cbe15444ff598ad603e608.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ranglino#4378">ranglino</span>
+<span class="msg-date">27-janv.-18 07:27 </span>
+<div class="msg-content">
+On a tous des perso qu&#39;on monte qui serve &#224; rien &#128515; vous inqui&#233;tez pas &#128515;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/372407313111187456/0f8a379780cac1df8703d361a6a1ad11.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Modymox#3832">Modymox</span>
+<span class="msg-date">27-janv.-18 07:27 </span>
+<div class="msg-content">
+c&#39;est pas faux &#128513;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/299607692211912706/19376b24f5cbe15444ff598ad603e608.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ranglino#4378">ranglino</span>
+<span class="msg-date">27-janv.-18 08:17 </span>
+<div class="msg-content">
+Je peux lancer une autre team?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">27-janv.-18 08:19 </span>
+<div class="msg-content">
+Oh oui fais toi plaiz &#128515;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/374141262036729857/0091145ecc9df761131bb44dc068efae.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Clochiotte#2681">Clochiotte</span>
+<span class="msg-date">27-janv.-18 08:19 </span>
+<div class="msg-content">
+Oui <span class="mention" title="ranglino#4378">@ranglino</span> , c&#39;est open bar mainteant &#128515; <br />Tu trouveras tout les d&#233;tails des horaires dans <span class="mention">#organisation-char</span> &#128521;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/299607692211912706/19376b24f5cbe15444ff598ad603e608.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ranglino#4378">ranglino</span>
+<span class="msg-date">27-janv.-18 08:20 </span>
+<div class="msg-content">
+Je demande j&#39;ai a pas envie de faire la boulette &#128515; je jouerai la p1 diff&#233;rent prochaine fois j&#39;ai de quoi m&#39;amuser</div>
+<div class="msg-content">
+J&#39;ai pas voulu m&#39;enfuir &#128515;</div>
+<div class="msg-content">
+Elle sera fini pour 21h la p1 vous pensez ?</div>
+<div class="msg-content">
+Ah mody devant &#128515;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/372407313111187456/0f8a379780cac1df8703d361a6a1ad11.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Modymox#3832">Modymox</span>
+<span class="msg-date">27-janv.-18 08:36 </span>
+<div class="msg-content">
+&#231;a va pas durer &#128514;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/299607692211912706/19376b24f5cbe15444ff598ad603e608.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ranglino#4378">ranglino</span>
+<span class="msg-date">27-janv.-18 08:36 </span>
+<div class="msg-content">
+Si &#224; 21h p2 faut que je garde des teams</div>
+<div class="msg-content">
+Vous utilisez tous zylo?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/372407313111187456/0f8a379780cac1df8703d361a6a1ad11.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Modymox#3832">Modymox</span>
+<span class="msg-date">27-janv.-18 08:42 </span>
+<div class="msg-content">
+non il y en a que trois qui l ont</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/299607692211912706/19376b24f5cbe15444ff598ad603e608.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ranglino#4378">ranglino</span>
+<span class="msg-date">27-janv.-18 08:51 </span>
+<div class="msg-content">
+Ducoups ? Je peux balance mes teams ? O. Attends le reset pour la p2 ?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/374141262036729857/0091145ecc9df761131bb44dc068efae.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Clochiotte#2681">Clochiotte</span>
+<span class="msg-date">27-janv.-18 08:53 </span>
+<div class="msg-content">
+Oui tu peux balancer tes teams je pense. Comme &#231;a t&#39;auras le refresh de 23h pour rejouer en P2 si jamais &#128515;<span class="msg-edited" title="27-janv.-18 08:53 ">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/299607692211912706/19376b24f5cbe15444ff598ad603e608.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ranglino#4378">ranglino</span>
+<span class="msg-date">27-janv.-18 08:53 </span>
+<div class="msg-content">
+Oui</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/372407313111187456/0f8a379780cac1df8703d361a6a1ad11.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Modymox#3832">Modymox</span>
+<span class="msg-date">27-janv.-18 08:59 </span>
+<div class="msg-content">
+allez on d&#233;fonce cette p1</div>
+</div>
+</div>
+</div>
+</body>
+</html>

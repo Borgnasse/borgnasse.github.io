@@ -1,0 +1,1305 @@
+﻿<!-- https://github.com/Tyrrrz/DiscordChatExporter -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>starwars/tatooineplage - modules</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<style>body {
+    background-color: #36393E;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: #0096CF;
+    text-decoration: none;
+}
+
+a:hover { text-decoration: underline; }
+
+div.pre {
+    background-color: #2F3136;
+    color: rgb(131, 148, 150);
+    font-family: Consolas, Courier New, Courier, Monospace;
+    margin-top: 4px;
+    padding: 8px;
+    white-space: pre-wrap;
+}
+
+span.pre {
+    background-color: #2F3136;
+    font-family: Consolas, Courier New, Courier, Monospace;
+    padding-left: 2px;
+    padding-right: 2px;
+    white-space: pre-wrap;
+}
+
+div#info {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 100%;
+}
+
+div#log { max-width: 100%; }
+
+img.guild-icon {
+    max-height: 64px;
+    max-width: 64px;
+}
+
+div.info-right {
+    flex: 1;
+    margin-left: 10px;
+}
+
+div.guild-name {
+    color: #FFFFFF;
+    font-size: 1.4rem;
+}
+
+div.channel-name {
+    color: #FFFFFF;
+    font-size: 1.2rem;
+}
+
+div.misc { margin-top: 2px; }
+
+div.msg {
+    border-top: 1px solid rgba(255, 255, 255, 0.04);
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+div.msg-left {
+    height: 40px;
+    width: 40px;
+}
+
+img.msg-avatar {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+div.msg-right {
+    flex: 1;
+    margin-left: 20px;
+}
+
+span.msg-user {
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+span.msg-date {
+    color: rgba(255, 255, 255, 0.2);
+    font-size: .75rem;
+    margin-left: 5px;
+}
+
+span.msg-edited {
+    color: rgba(255, 255, 255, 0.2);
+    font-size: .8rem;
+    margin-left: 5px;
+}
+
+div.msg-content {
+    font-size: .9375rem;
+    padding-top: 5px;
+    word-break: break-all;
+}
+
+div.msg-attachment {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+img.msg-attachment {
+    max-height: 500px;
+    max-width: 50%;
+}
+
+img.emoji {
+    height: 24px;
+    width: 24px;
+    vertical-align: -.4em;
+}
+
+span.mention {
+    font-weight: 600;
+}</style>
+</head>
+<body>
+<div id="info">
+<div class="info-left">
+<img class="guild-icon" src="https://cdn.discordapp.com/icons/372722367555698699/ef8dc2d1cf7868f73ce2a2b5e3e24089.png" />
+</div>
+<div class="info-right">
+<div class="guild-name">starwars/tatooineplage</div>
+<div class="channel-name">modules</div>
+<div class="misc">158 messages</div>
+</div>
+</div>
+<div id="log">
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="HissBan#9840">HissBan</span>
+<span class="msg-date">03-d&#233;c.-17 12:14 </span>
+<div class="msg-content">
+Hello, le monde. Pourriez vous m&#39;&#233;clairer sur la meilleure facon de mod ces persos ? Thanks</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">03-d&#233;c.-17 12:17 </span>
+<div class="msg-content">
+Si tu lis l&#39;anglais je te conseille les lectures suivantes:<br /> <i> Site sur la compr&#233;hension des mods en g&#233;n&#233;ral : <br /><a href="http://gaming-fans.com/swgoh-101/swgoh-101-comprehensive-mod-guide/">http://gaming-fans.com/swgoh-101/swgoh-101-comprehensive-mod-guide/</a><br /> </i> Dont la page qui explique ce qui est un bon mod en g&#233;n&#233;ral:<br /><a href="http://gaming-fans.com/swgoh-101/swgoh-101-comprehensive-mod-guide/swgoh-101-mod-guide-choose-good-mods/">http://gaming-fans.com/swgoh-101/swgoh-101-comprehensive-mod-guide/swgoh-101-mod-guide-choose-good-mods/</a><br /><br /> <i> Page qui explique toon par toon les meilleurs mods pour lui:<br /><a href="http://gaming-fans.com/star-wars-goh/mods/">http://gaming-fans.com/star-wars-goh/mods/</a><br /><br /> </i> En Fran&#231;ais page faite par Hexagone qui reprend une partie des principes du dessus:<br /><a href="https://docs.google.com/document/d/1SntdtNFT_0YGq4cOxtHTo0gIhw-W4jqrSAPqsWIFCi4/pub">https://docs.google.com/document/d/1SntdtNFT_0YGq4cOxtHTo0gIhw-W4jqrSAPqsWIFCi4/pub</a><br /><br />En r&#232;gle g&#233;n&#233;rale, la stat la plus importante sur les mods est la Vitesse. Pour la fl&#232;che (mod en haut &#224; droite) il faut absolument de la vitesse en stat principale, et sur tous les autres modules il faut essayer d&#39;avoir de la vitesse en stat secondaire.<span class="msg-edited" title="03-d&#233;c.-17 12:25 ">(edited)</span></div>
+<div class="msg-content">
+Le plus important c&#39;est de ne surtout pas farmer les mods depuis les batailles de modules. Il faut les farmer depuis le niveau III des d&#233;fis de modules, parce que c&#39;est &#231;a qui rapporte les modules &#224; 5 points.</div>
+<div class="msg-content">
+Tu as aussi ce site qui est super pour optimiser tes mods. Il n&#233;cessite d&#39;avoir un compte swgoh.gg, et la m&#233;thode pour importer ses donn&#233;es dans l&#39;outil est un peu complexe depuis que le lien avec swgoh.gg ne fonctionne plus. Si tu es int&#233;ress&#233; mais que tu gal&#232;res n&#39;h&#233;site pas &#224; me demander, j&#39;ai r&#233;ussi &#224; le faire :<br /><a href="http://apps.crouchingrancor.com/Mods/Manager">http://apps.crouchingrancor.com/Mods/Manager</a><span class="msg-edited" title="03-d&#233;c.-17 12:41 ">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="HissBan#9840">HissBan</span>
+<span class="msg-date">03-d&#233;c.-17 02:47 </span>
+<div class="msg-content">
+Ca marche merci beaucoup pour ton aide !!</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/372407313111187456/0f8a379780cac1df8703d361a6a1ad11.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Modymox#3832">Modymox</span>
+<span class="msg-date">07-d&#233;c.-17 04:05 </span>
+<div class="msg-content">
+<a href="https://www.youtube.com/watch?v=6d9mQJ3uJhU&amp;t=34s">https://www.youtube.com/watch?v=6d9mQJ3uJhU&amp;t=34s</a></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">07-d&#233;c.-17 04:06 </span>
+<div class="msg-content">
+Mody ton lien pointe vers 34sec apr&#232;s le d&#233;but, est-ce fait expr&#232;s ?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/372407313111187456/0f8a379780cac1df8703d361a6a1ad11.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Modymox#3832">Modymox</span>
+<span class="msg-date">07-d&#233;c.-17 04:07 </span>
+<div class="msg-content">
+nope, mais on peut le remettre au d&#233;but;)</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">11-d&#233;c.-17 07:15 </span>
+<div class="msg-content">
+Je viens de faire un petit topo &#224; HissBan, du coup je me permets de mettre ce que je lui ai dit ici, comme &#231;a &#231;a pourra servir &#224; d&#39;autres, et vous pourrez me corriger si j&#39;ai dit des b&#234;tises &#128515;</div>
+<div class="msg-content">
+Alors en premier lieu il faut savoir que la statistique la plus importante sur les mods c&#39;est la vitesse<br />Chaque mod poss&#232;de une statistique principale (tout en haut), ainsi que 4 stats secondaires<br />Le seul type de mod sur lequel tu auras de la vitesse en caract&#233;ristique principale c&#39;est la fl&#232;che (mod tout en haut &#224; droite). Donc pour celui-l&#224; c&#39;est simple : il te faut une fl&#232;che avec de la vitesse en stat principale &#128515;<br />Pour les autres il n&#39;y a pas de vitesse en stat principale, donc il en faut en stat secondaire.<br />Le graal c&#39;est donc de trouver des mods avec de la vitesse dessus en stat secondaire<br />Les autres stats et les bonus de set (j&#39;y viens apr&#232;s) sont secondaires<br />Pour les bonus de set donc, chaque mod a un type de set (sant&#233;, d&#233;fense, vitesse, critique, etc.), et suivant les sets il faut un certain nombre de mods du m&#234;me set pour activer le bonus (par ex 2 mods sant&#233; pour un bonus sant&#233;, 4 mods vitesse pour un bonus vitesse). Attention il ne s&#39;agit pas des caract&#233;ristiques que tu trouves dans le mod, mais bien du &quot;type&quot; de mod (a savoir l&#39;icone marqu&#233;e sur le mod, qui n&#39;a rien a voir avec les caract&#233;ristiques du mod)<br />En deuxi&#232;me ordre, apr&#232;s la vitesse, on trouve le pouvoir. Le pouvoir c&#39;est ce qui te permet d&#39;appliquer des debuff (malus) aux &#233;nemis</div>
+<div class="msg-content">
+C&#39;est surtout utile pour les persos qui mettent des d&#233;buffs, par ex Palpa et son stun en AOE, moins pour les persos qui vont surtout faire des d&#233;gats purs<br />En troisi&#232;me ordre, il y aura la protection, qui est souvent plus int&#233;ressante que la sant&#233; parce qu&#39;&#224; niveau de mod &#233;quivalent tu auras plus de protection que de sant&#233;<br />En quatri&#232;me ordre tu as les autres stats<br />Et en cinqui&#232;me ordre tu as les bonus de set. En vrai ils sont pas si int&#233;ressants que &#231;a donc il vaut mieux des bons mods sans bonus de set que de chercher &#224; tout prix le bonus de set et de mettre des mods moins bons.<br />Note &#233;galement que les mods ont un nombre de points au dessus d&#39;eux (de 1 &#224; 5), et &#231;a correspond aux &#233;toiles des persos. Essaie au max de s&#233;lectionner des mods 5 points<br />Finalement les mods ont une couleur : Gris, vert, bleu, violet et dor&#233;<br />Et en plus un niveau, de 1 &#224; 15<br />La couleur correspond au nombre de statistiques secondaires que ton mod a d&#232;s le niveau 1<br />Un mod gris n&#39;aura aucune statistique secondaire au niveau 1, alors qu&#39;un mod dor&#233; aura 4 statistiques secondaires au niveau 1<br />Attention c&#39;est l&#224; la partie la plus complexe des mods.<br />Aux niveaux 3, 6, 9 et 12 (donc quand tu augmentes le niveau d&#39;un mod), il va se passer les choses suivantes:<br />- Soit le mod va prendre une nouvelle statistique secondaire si elle n&#39;est pas pr&#233;sente &#224; ce niveau (pour arriver &#224; 4 stats secondaires au niveau 12)<br />- Soit le mod va augmenter une des statistiques secondaires d&#233;j&#224; pr&#233;sente</div>
+<div class="msg-content">
+Au final, au niveau 12, tous les mods sont dor&#233;s (donc avec 4 stats secondaires)<br />Par contre les mods qui sont dor&#233;s au niveau 1 vont voir leurs stats secondaires augment&#233;es 4 fois (par contre c&#39;est au hasard tu ne sais pas d&#39;avance quelles stats secondaires seront augment&#233;es, &#231;a peut &#234;tre les 4 une fois chacune, jusqu&#39;&#224; une seule 4 fois)<br />Quant &#224; la statistique principale, elle est augment&#233;e &#224; chaque niveau, jusqu&#39;au niveau 15 compris(&#233;dit&#233;)<br />Bien &#233;videmment, un mod 5 points aura une bien meilleur statistique principale qu&#39;un mod 1 point &#233;quivalent, et cette statistique principale sera bien plus augment&#233;e &#224; chaque niveau que le mod 1 point<br />Ce qu&#39;on d&#233;duit ici c&#39;est que sur les mods gris il n&#39;y a aucune chance de savoir d&#39;avance si on aura de la vitesse en stat secondaire<br />Donc les mods gris c&#39;est direct en revente. Ca couterait trop cher en cr&#233;dits d&#39;&#233;voluer les mods gris pour voir ce qui sortirait en stats secondaires.<br />Donc les mods &#231;a se farm. Ca se farm pas dans les batailles de mods, mais dans les d&#233;fis de modules, et uniquement au niveau III de chaque d&#233;fis<br />Ca utilise de l&#39;&#233;nergie de la cantina, et &#224; ton niveau il est conseill&#233; de d&#233;penser la moiti&#233; de son &#233;nergie cantina de la journ&#233;e dans le farm de modules si tu veux bien t&#39;&#233;quiper.<br />Est-ce que tu lis bien l&#39;anglais ?<br />Si c&#39;est le cas, sur cette page tu as un tableau avec la plupart des persos, et les meilleurs mods pour lui : <a href="http://gaming-fans.com/star-wars-goh/mods/">http://gaming-fans.com/star-wars-goh/mods/</a></div>
+<div class="msg-content">
+Alors j&#39;ai une page aussi pour toi : <a href="http://gaming-fans.com/swgoh-101/swgoh-101-comprehensive-mod-guide/swgoh-101-mod-guide-choose-good-mods/">http://gaming-fans.com/swgoh-101/swgoh-101-comprehensive-mod-guide/swgoh-101-mod-guide-choose-good-mods/</a> dans la partie &quot;Primary Selection by Shape&quot; tu trouveras aussi les stats principales &#224; s&#233;lectionner selon le mod et le type de perso (tank, DPS, support, etc.)</div>
+<div class="msg-content">
+globalement s&#39;il faut retenir un truc, c&#39;est : le mod en forme de fl&#232;che avec de la vitesse en stat principale, et tous les autres avec de la vitesse en stat secondaire &#128515;</div>
+<div class="msg-content">
+Ah et il faut essayer de faire le niveau 3 du challenge de mod sant&#233; (n&#39;importe quelle &#233;quipe) et d&#233;fense (jedi uniquement), &#231;a te permet d&#39;avoir des mods 5 points dans les chargements de mods<br />Attention il est d&#233;conseill&#233; d&#39;utiliser des cristaux pour acheter des mods dans les chargements de mods, par contre si tu trouves une fl&#232;che avec de la vitesse en stat principale &#224; acheter avec des cr&#233;dits tu r&#233;fl&#233;chis pas &#128515;</div>
+<div class="msg-content">
+Ah une derni&#232;re chose : pour les mods dont la stat principale c&#39;est pas top top, et le bonus de set ne sera pas atteint ou n&#39;est pas top non plus, tu peux t&#39;arr&#234;ter au niveau 12 pour le mod, ca t&#39;&#233;conomisera un sacr&#233; paquet de cr&#233;dits</div>
+<div class="msg-content">
+Pass&#233; le niveau 12 il n&#39;y a que la carac principale qui est augment&#233;e, et le bonus de set max pour le niveau 15</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/375236799271927808/b662a83ef28cc8711965869dba242dbf.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Floxy#9532">Floxy</span>
+<span class="msg-date">12-d&#233;c.-17 03:16 </span>
+<div class="msg-content">
+Merci <span class="mention" title="Borgnasse#4598">@Borgnasse</span> c&#39;est tr&#232;s clair &#128515; J&#39;utilise ce site moi: <a href="http://apps.crouchingrancor.com/Mods/Advisor">http://apps.crouchingrancor.com/Mods/Advisor</a></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/269844070640254988/b475521a84d947ccb3ca6ae06f5ff6b4.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MrG Փ#1499">MrG Փ</span>
+<span class="msg-date">12-d&#233;c.-17 08:24 </span>
+<div class="msg-content">
+Bonjour tatouine plage, pour ceux qui parlent anglais il y a ce site pour le modage</div>
+<div class="msg-content">
+<a href="http://gaming-fans.com/star-wars-goh/mods/">http://gaming-fans.com/star-wars-goh/mods/</a></div>
+<div class="msg-content">
+Au moins il explique le pourquoi du comment et vous pouvez adapter en fonction des mods en votre possession</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">12-d&#233;c.-17 09:23 </span>
+<div class="msg-content">
+Carr&#233;ment <span class="mention" title="MrG Փ#1499">@MrG Փ</span> , d&#39;ailleurs le lien est dans mon texte un peu plus haut &#128521;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/269844070640254988/b475521a84d947ccb3ca6ae06f5ff6b4.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MrG Փ#1499">MrG Փ</span>
+<span class="msg-date">12-d&#233;c.-17 09:46 </span>
+<div class="msg-content">
+<span class="mention" title="Borgnasse#4598">@Borgnasse</span> pas fait attention d&#233;sol&#233; &#128517;! Je ne me sert que de se site &#128076;&#127997;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/178025382170066944/f62974f4040834e8d46cb6ebf5c18e3b.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="KarlVonDraakhs#4740">KarlVonDraakhs</span>
+<span class="msg-date">12-d&#233;c.-17 07:15 </span>
+<div class="msg-content">
+Les mods sont ce qui fera vraiment la diff&#233;rence en pvp et pve au level85. Il faut vraiment comprendre comment &#231;a marche... A commencer pour passer les GW ^^</div>
+<div class="msg-content">
+Ensuite la vitesse sur la fl&#232;che c&#39;est n&#233;cessaire. Apr&#232;s globalement la vitesse sur tout sauf les gros tanks ou il faut maximiser vie g&#233;n&#233;ralement.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">18-d&#233;c.-17 06:51 </span>
+<div class="msg-content">
+<span class="mention" title="Braskah Paagrio#3246">@Braskah Paagrio</span> tu les as eus comment tes mods ? Tu les a farm&#233;s ? Ou achet&#233; dans les chargements ? Parce que c&#39;est assez impressionnant &#128515; !</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/376831027999670284/aa8434d17285f2bd323fb9048bb41d85.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Braskah Paagrio#3246">Braskah Paagrio</span>
+<span class="msg-date">18-d&#233;c.-17 06:52 </span>
+<div class="msg-content">
+Salut salut &#128522; je les ai farm.. c est la mis&#232;re ^^. Et va falloir recommencer une fois tout les d&#233;fis r&#233;ussi &#128557;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">18-d&#233;c.-17 06:53 </span>
+<div class="msg-content">
+Tu farmes les d&#233;fis de modules j&#39;imagine ?</div>
+<div class="msg-content">
+Mais je te rejoins c&#39;est la mis&#232;re &#224; farmer &#128521;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/376831027999670284/aa8434d17285f2bd323fb9048bb41d85.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Braskah Paagrio#3246">Braskah Paagrio</span>
+<span class="msg-date">18-d&#233;c.-17 06:56 </span>
+<div class="msg-content">
+Oui d&#233;fi modules et je croise les doigts</div>
+<div class="msg-content">
+Je m &#233;tais fait une grosse s&#233;ance pendant deux  semaines , mais du coup j avais stopp&#233; le farm d&#232;s frag.. j ai arr&#234;t&#233; depuis , faut que j avance mes persos d’abord ^^</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">18-d&#233;c.-17 07:13 </span>
+<div class="msg-content">
+Yep d&#232;s que je finis Wedge je m&#39;y mets &#128515;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">20-d&#233;c.-17 04:52 </span>
+<div class="msg-content">
+Hmm pour un mod triangle, il vaut mieux :<br /> - 4 vitesse en secondaire sur un attaque primaire 4 points<br /> - Un d&#233;gats critiques primaire 5 points sans vitesse secondaire<br /><span class="mention" title="Braskah Paagrio#3246">@Braskah Paagrio</span> &#128522; ?<span class="msg-edited" title="20-d&#233;c.-17 04:53 ">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/374141262036729857/0091145ecc9df761131bb44dc068efae.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Clochiotte#2681">Clochiotte</span>
+<span class="msg-date">21-d&#233;c.-17 11:11 </span>
+<div class="msg-content">
+Pinned a message.</div>
+<div class="msg-content">
+Pinned a message.</div>
+<div class="msg-content">
+Pinned a message.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/376831027999670284/aa8434d17285f2bd323fb9048bb41d85.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Braskah Paagrio#3246">Braskah Paagrio</span>
+<span class="msg-date">21-d&#233;c.-17 11:26 </span>
+<div class="msg-content">
+Hmmm c est pour quel perso <span class="mention" title="Borgnasse#4598">@Borgnasse</span> ?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">21-d&#233;c.-17 11:49 </span>
+<div class="msg-content">
+<span class="mention" title="Braskah Paagrio#3246">@Braskah Paagrio</span> C&#39;est pour Biggs</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/269934171043004426/390e31bca96496bc59b2363f80143b17.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Veskaza#4100">Veskaza</span>
+<span class="msg-date">21-d&#233;c.-17 11:52 </span>
+<div class="msg-content">
+Hello.<br />Perso je mettrais celui avec vitesse. Le but &#233;tant qu&#39;il joue le premier et invoque Wedge le plus souvent possible.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/376831027999670284/aa8434d17285f2bd323fb9048bb41d85.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Braskah Paagrio#3246">Braskah Paagrio</span>
+<span class="msg-date">21-d&#233;c.-17 11:54 </span>
+<div class="msg-content">
+Je valide ^^ .</div>
+<div class="msg-content">
+Apr&#232;s te prend pas trop la t&#234;te , tu devrais avoir mieux assez rapidement &#128521;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">21-d&#233;c.-17 11:55 </span>
+<div class="msg-content">
+Yup c&#39;est en attendant de farmer les modules...</div>
+<div class="msg-content">
+D&#39;un c&#244;t&#233; : 29% d&#233;gats critiques, 1187 sant&#233;, 2% prot + 535 prot + 1.6% d&#233;fense.<br />De l&#39;autre c&#244;t&#233; : 3.2% ATK, 4.5% tenacit&#233;, 4 vitesse, 21 atk, 512 prot.</div>
+<div class="msg-content">
+Mis &#224; part la vitesse je trouve le premier mod nettement au dessus</div>
+<div class="msg-content">
+La question est de savoir si 4 vitesse compense le gap ou pas &#128515;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/376831027999670284/aa8434d17285f2bd323fb9048bb41d85.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Braskah Paagrio#3246">Braskah Paagrio</span>
+<span class="msg-date">21-d&#233;c.-17 11:58 </span>
+<div class="msg-content">
+Hmm , surtout que biggs critique facilement . Tu peux te passer du 4 vitesses en attendant d avoir mieux . Vaut mieux one shoot &#128513;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">21-d&#233;c.-17 11:59 </span>
+<div class="msg-content">
+C&#39;est ce que j&#39;ai fait. Mais comme tu dis c&#39;est du pis-aller en attendant d&#39;avoir des bons mods &#128515;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/376831027999670284/aa8434d17285f2bd323fb9048bb41d85.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Braskah Paagrio#3246">Braskah Paagrio</span>
+<span class="msg-date">21-d&#233;c.-17 12:02 </span>
+<div class="msg-content">
+J hallucine quand je vois les mod des gens contre qui je me bats en ar&#232;ne , 120 de vitesse en plus rien que sur les modules &#128530;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/375236799271927808/b662a83ef28cc8711965869dba242dbf.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Floxy#9532">Floxy</span>
+<span class="msg-date">21-d&#233;c.-17 12:20 </span>
+<div class="msg-content">
+apr&#232;s t&#39;es rang 11 mec haha</div>
+<div class="msg-content">
+<span class="mention" title="Borgnasse#4598">@Borgnasse</span> Comme tout le monde te l&#39;a dis, l&#39;important c&#39;est que Biggs commence (m&#234;me si je pense que si Wedge commence et inflige le defence down avant &#231;a peut &#234;tre pas mal) donc tu peux tr&#232;s bien m&#234;me le module DC en triangle et favoriser la vitesse sur les autres modules</div>
+<div class="msg-content">
+mettre*</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">21-d&#233;c.-17 12:25 </span>
+<div class="msg-content">
+<span class="mention" title="Floxy#9532">@Floxy</span> la th&#233;orie c&#39;est cool mais si tu voyais mes modules &#128580;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/375236799271927808/b662a83ef28cc8711965869dba242dbf.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Floxy#9532">Floxy</span>
+<span class="msg-date">21-d&#233;c.-17 12:27 </span>
+<div class="msg-content">
+ouais c&#39;est ce que je suis en train de voir mdr</div>
+<div class="msg-content">
+mais genre le diamand sur boba est top</div>
+<div class="msg-content">
+tu pourrais le mettre sur Biggs</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">21-d&#233;c.-17 12:33 </span>
+<div class="msg-content">
+Pour l&#39;instant je compte sur une &#233;quipe avec Boba aussi, et du coup il est important qu&#39;il d&#233;marre t&#244;t pour bloquer les capacit&#233;s de la team d&#39;en face. Quand Wedge sera stuff&#233; je verrai</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/375236799271927808/b662a83ef28cc8711965869dba242dbf.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Floxy#9532">Floxy</span>
+<span class="msg-date">21-d&#233;c.-17 12:43 </span>
+<div class="msg-content">
+&#231;a roule ! &#128521;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">10-janv.-18 09:15 </span>
+<div class="msg-content">
+<span class="mention">@Membres</span> j&#39;ai regard&#233; quelques vid&#233;os sur le farm de modules vitesse (pour l&#39;ar&#232;ne par ex) et j&#39;ai trouv&#233; des informations qui n&#39;&#233;taient pas de l&#39;ordre de l&#39;&#233;vidence pour moi. Je vous les mets ici, avec d&#39;autres choses importantes:<br /> - Seuls les mods &quot;fl&#232;che&quot; avec de la vitesse en carac primaire sont int&#233;ressants<br /> - Pour tous les autres mods le but est d&#39;avoir absolument de la vitesse en carac secondaire, et le plus possible !<br /> - Pour avoir le plus possible de vitesse en carac secondaire il faut comprendre la fa&#231;on dont les carac secondaires apparaissent OU augmentent<span class="msg-edited" title="10-janv.-18 10:31 ">(edited)</span></div>
+<div class="msg-content">
+=&gt; si un mod est gris au level 1, il n&#39;a pas de carac secondaire. <br />           Aux niveaux 3, 6, 9 et 12 respectivement il y aura une carac secondaire al&#233;atoire suppl&#233;mentaire ajout&#233;e, chacune &#224; sa valeur de base (ex. 3 &#224; 5 vitesse max pour la vitesse). <br />           Au mieux un mod gris pourra avoir 5 vitesse en carac secondaire, et c&#39;est pas terrible.<br />      =&gt; si un mod est vert au level 1, il a une seule carac secondaire. <br />           Il est ASSUR&#201; que cette carac soit AUGMENT&#201;E au niveau 3. Aux niveaux 6, 9 et 12 respectivement 3 autres carac secondaires seront ajout&#233;es &#224; leur valeur de base. <br />           Un mod vert au niveau 1 avec de la vitesse en carac secondaire aura donc au moins 9 vitesse &#224; partir du niveau 3 (mais pas plus apr&#232;s), et &#231;a c&#39;est d&#233;j&#224; pas mal.<br />     =&gt; si un mod est bleu au niveau 1, il a 2 carac secondaires. <br />          Aux niveaux 3 et 6, il y aura &#224; chaque fois une augmentation d&#39;une des deux carac secondaires au hasard (&#231;a peut &#234;tre 2 fois la m&#234;me). Aux niveau 9 et 12 respectivement, 2 nouvelles carac secondaires seront ajout&#233;es &#224; leur valeur de base. <br />          Un mod bleu au niveau 1 avec de la vitesse en carac secondaire aura donc entre 4 et 15 vitesse &#224; partir du niveau 6 (mais pas plus apr&#232;s). Vous remarquerez que la plupart du temps &#231;a n&#39;est pas la carac secondaire &quot;vitesse&quot; qui est augment&#233;e &#128514; !<br />     =&gt; si un mod est violet au niveau 1, il a 3 carac secondaires et s&#39;il est dor&#233; il a 4 carac secondaires.<br />          Ca marche comme pour le bleu : pour le violet il y a 3 chances d&#39;augmentation des carac secondaires existantes aux niveaux 3, 6, 9 et un ajout de carac secondaire au niveau 12. Pour le dor&#233; il y a 4 chances d&#39;augmentation des carac secondaires existantes.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/349556601608208395/c57c960260727093bfce07d4d4744545.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Blank#8467">Blank</span>
+<span class="msg-date">10-janv.-18 09:16 </span>
+<div class="msg-content">
+En fait y a plus simple</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">10-janv.-18 09:17 </span>
+<div class="msg-content">
+La conclusion:<br /> - Ne jamais am&#233;liorer un mod gris si vous cherchez de la vitesse en carac secondaire (et vous devriez, la vitesse est nettement sup&#233;rieure &#224; tout le reste)<br /> - Un mod vert avec de la vitesse est garanti d&#39;&#234;tre augment&#233; en vitesse<br /> - Un mod bleu, violet ou dor&#233; avec de la vitesse peut soit &#234;tre un mod moisi soit un mod exceptionnel, &#231;a d&#233;pend de votre chance &#128514;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/349556601608208395/c57c960260727093bfce07d4d4744545.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Blank#8467">Blank</span>
+<span class="msg-date">10-janv.-18 09:17 </span>
+<div class="msg-content">
+faut booster systematiquement les violets et orange &#224; 9 et voirsi y a speed. Tu vois apres si &#231;a interesse ou pas.</div>
+<div class="msg-content">
+Bleu a 6 tu regardes si speed &#224; level 6</div>
+<div class="msg-content">
+Vert tu vends si pas de vitesse en secondaire</div>
+<div class="msg-content">
+Gris tu vends sauf si fleche speed primaire pour toutes les couleurs</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">10-janv.-18 09:19 </span>
+<div class="msg-content">
+Bah d&#233;sol&#233; <span class="mention" title="Blank#8467">@Blank</span> mais je suis pas d&#39;accord. Si tu as un violet ou un orange sans speed secondaire tu peux le jeter &#128533;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/349556601608208395/c57c960260727093bfce07d4d4744545.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Blank#8467">Blank</span>
+<span class="msg-date">10-janv.-18 09:20 </span>
+<div class="msg-content">
+level 9 en boost c&#39;est 70 k les 6 level qui restent sont &#224; 400 k</div>
+<div class="msg-content">
+ah non &#231;a peut servir</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">10-janv.-18 09:20 </span>
+<div class="msg-content">
+Ah pardon, effectivement si tu recherches autre chose que de la vitesse c&#39;est effectivement int&#233;ressant &#128515;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/349556601608208395/c57c960260727093bfce07d4d4744545.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Blank#8467">Blank</span>
+<span class="msg-date">10-janv.-18 09:22 </span>
+<div class="msg-content">
+ben avec 102 personnages 7* si je commence a vendre les orange et les violets, je vais devoir changer 30 modules a chaque fois que je change de team ... c&#39;est pas g&#233;rable... vaut mieux les garder pour &#233;viter de jouer &#224; la poup&#233;e</div>
+<div class="msg-content">
+Par exemple chez alpha dayma conseille de mettre 6 modes a chaque perso pour la TW  et les pg ... alors s&#39;ils vendent tout ce qui est pas speed orange ou violet, ils vont vite &#234;tre &#224; poil pour l&#39;hiver ...</div>
+<div class="msg-content">
+Si y a une technique ...</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">10-janv.-18 09:25 </span>
+<div class="msg-content">
+Tout &#224; fait, mon post &#233;tait juste dans l&#39;optique : je cherche &#224; me modder Vitesse (pour ma team ar&#232;ne par ex), comment je fais pour maximiser mes chances d&#39;avoir de la vitesse sans d&#233;penser 10M cr&#233;dits &#128521;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/349556601608208395/c57c960260727093bfce07d4d4744545.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Blank#8467">Blank</span>
+<span class="msg-date">10-janv.-18 09:26 </span>
+<div class="msg-content">
+Tu prends tes 6 meilleurs modes tu les mets sur  un personnage ... tu les enleves, tu deploies et tu fais &#231;a 120 fois ... c&#39;est bonheur</div>
+<div class="msg-content">
+y en a qui le font pour optimiser les pg ^^</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/372407313111187456/0f8a379780cac1df8703d361a6a1ad11.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Modymox#3832">Modymox</span>
+<span class="msg-date">10-janv.-18 09:27 </span>
+<div class="msg-content">
+C est hard</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/349556601608208395/c57c960260727093bfce07d4d4744545.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Blank#8467">Blank</span>
+<span class="msg-date">10-janv.-18 09:28 </span>
+<div class="msg-content">
+ouais ben c&#39;est pour &#231;a que je vends que quand j&#39;ai atteint la limite max de modes en stock ...</div>
+<div class="msg-content">
+c&#39;est un coup a devenir fou</div>
+<div class="msg-content">
+Mais pour &#234;tre sur de ces regles, j&#39;ai claqu&#233; 1 million de cristaux sur la meta du jeu pourvoir comment &#231;a reagissait les modes... et effectivement vert gris, faut vendre.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">10-janv.-18 09:35 </span>
+<div class="msg-content">
+Un vrai million, ou est-ce que tu es du sud-est comme moi &#128514;  ?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/349556601608208395/c57c960260727093bfce07d4d4744545.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Blank#8467">Blank</span>
+<span class="msg-date">10-janv.-18 09:35 </span>
+<div class="msg-content">
+nan c&#39;etait cx et credit illimit&#233; ...</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">10-janv.-18 09:36 </span>
+<div class="msg-content">
+Ahhh la <b>b</b>eta &#128521;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/349556601608208395/c57c960260727093bfce07d4d4744545.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Blank#8467">Blank</span>
+<span class="msg-date">10-janv.-18 09:38 </span>
+<div class="msg-content">
+bref les modes a privil&#233;gier sont  speed, cd, cc. Orange violet bleu faut booster &#224; 9 pour voir si speed apparait. Et fleches speed en primaire faut garder qq soit la couleur qu&#39;elles soit speed cc cd potentcy ou nimp ...<span class="msg-edited" title="10-janv.-18 09:38 ">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/269934171043004426/390e31bca96496bc59b2363f80143b17.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Veskaza#4100">Veskaza</span>
+<span class="msg-date">10-janv.-18 10:24 </span>
+<div class="msg-content">
+Gardez quand m&#234;me des fleches sans vitesse et des mods avec stats secondaires sans vitesse pour le rancor. Il faut beaucoup de vitesse sur les reducteurs de tm mais le moins possible sur les autres</div>
+<div class="msg-content">
+Les fleches c&#39;est quand meme rare. Posez les sur les toons que vous n&#39;utilisez pas, en priorit&#233; les pilotes. La puissance d&#39;un vaisseau d&#233;pend &#233;norm&#233;ment dubpilote, notamment ses gears et mods</div>
+<div class="msg-content">
+Pour &#234;tre au top mettez leurs des 5* lvl 15 que vous n&#39;utilisez plus (parce que les monter expr&#232;s &#231;a fait cher quand m&#234;me)</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/375236799271927808/b662a83ef28cc8711965869dba242dbf.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Floxy#9532">Floxy</span>
+<span class="msg-date">11-janv.-18 03:13 </span>
+<div class="msg-content">
+&#231;a fait plaisir de lire &#231;a</div>
+<div class="msg-content">
+Hier j&#39;ai chop&#233; un Mod Diamant Gold avec +4 vitesse en secondaire</div>
+<div class="msg-content">
+et b&#233; au lvl 12 il &#233;tait toujours +4....</div>
+<div class="msg-content">
+&#128546;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">11-janv.-18 10:35 </span>
+<div class="msg-content">
+<span class="mention" title="Floxy#9532">@Floxy</span> Story of my life &#128514;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/299607692211912706/19376b24f5cbe15444ff598ad603e608.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ranglino#4378">ranglino</span>
+<span class="msg-date">12-janv.-18 06:30 </span>
+<div class="msg-content">
+C’est rien la prochaine fois ce sera un +12 final:) c’est tr&#232;s tr&#232;s long les mods</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/375236799271927808/b662a83ef28cc8711965869dba242dbf.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Floxy#9532">Floxy</span>
+<span class="msg-date">15-janv.-18 03:51 </span>
+<div class="msg-content">
+<span class="mention" title="Borgnasse#4598">@Borgnasse</span></div>
+<div class="msg-content">
+et du coup tu as upgrade uniquement les vert avec speed en secondaire</div>
+<div class="msg-content">
+pareil pour les bleu, violet et gold ?</div>
+<div class="msg-content">
+upgrade aucuns gris ?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">15-janv.-18 03:52 </span>
+<div class="msg-content">
+Non j&#39;ai arr&#234;t&#233; d&#39;upgrade les gris. Sauf triangles et croix si j&#39;ai vraiment que de la merde. Et que lvl12 au cas o&#249;.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/375236799271927808/b662a83ef28cc8711965869dba242dbf.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Floxy#9532">Floxy</span>
+<span class="msg-date">15-janv.-18 03:52 </span>
+<div class="msg-content">
+ok</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">15-janv.-18 03:52 </span>
+<div class="msg-content">
+Donc j&#39;ai upgrade pour l&#39;instant que les Speed secondary en vert, bleu, violet et gold</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/375236799271927808/b662a83ef28cc8711965869dba242dbf.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Floxy#9532">Floxy</span>
+<span class="msg-date">15-janv.-18 03:52 </span>
+<div class="msg-content">
+et tu upgrade un vert m&#234;me si pas de vitesse en secondaire ?</div>
+<div class="msg-content">
+ok</div>
+<div class="msg-content">
+bon &#224; savoir</div>
+<div class="msg-content">
+&#128515;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">15-janv.-18 03:53 </span>
+<div class="msg-content">
+Je me garde les violets et gold sans speed secondary pour quand j&#39;aurai un peu plus de cr&#233;dits pour les &#233;voluer aussi, suivant les stats</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/375236799271927808/b662a83ef28cc8711965869dba242dbf.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Floxy#9532">Floxy</span>
+<span class="msg-date">15-janv.-18 03:53 </span>
+<div class="msg-content">
+ok</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">15-janv.-18 03:54 </span>
+<div class="msg-content">
+Ca peut faire des bons mods, apr&#232;s tout, tous les persos doivent pas &#234;tre modd&#233;s vitesse suivant les events. Dans certains cas c&#39;est m&#234;me mieux qu&#39;ils soient le plus lent possible</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/375236799271927808/b662a83ef28cc8711965869dba242dbf.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Floxy#9532">Floxy</span>
+<span class="msg-date">15-janv.-18 03:54 </span>
+<div class="msg-content">
+bah les tank ont pas besoin de vitesse d&#233;j&#224; :p</div>
+<div class="msg-content">
+sauf Sthan</div>
+<div class="msg-content">
+erf</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/376831027999670284/aa8434d17285f2bd323fb9048bb41d85.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Braskah Paagrio#3246">Braskah Paagrio</span>
+<span class="msg-date">15-janv.-18 04:21 </span>
+<div class="msg-content">
+Sthan sa d&#233;pend</div>
+<div class="msg-content">
+Des fois je suis d&#233;go&#251;t&#233; quand il a pas de speed , il garde le taunt10ans<span class="msg-edited" title="15-janv.-18 04:23 ">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">15-janv.-18 06:27 </span>
+<div class="msg-content">
+<span class="mention" title="Braskah Paagrio#3246">@Braskah Paagrio</span> Toute fa&#231;on il taunt 3 tours, donc speed ou pas...<span class="msg-edited" title="15-janv.-18 06:37 ">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/embed/avatars/4.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Megalomaniac#6179">Megalomaniac</span>
+<span class="msg-date">17-janv.-18 12:59 </span>
+<div class="msg-content">
+Vous le modez comment notre cher ami STH?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/375236799271927808/b662a83ef28cc8711965869dba242dbf.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Floxy#9532">Floxy</span>
+<span class="msg-date">17-janv.-18 03:28 </span>
+<div class="msg-content">
+Protection / Potency / Speed</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/375236799271927808/b662a83ef28cc8711965869dba242dbf.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Floxy#9532">Floxy</span>
+<span class="msg-date">17-janv.-18 04:51 </span>
+<div class="msg-attachment">
+<a href="https://cdn.discordapp.com/attachments/382256415579963392/403033683176456199/image.png">
+<img class="msg-attachment" src="https://cdn.discordapp.com/attachments/382256415579963392/403033683176456199/image.png" />
+</a>
+</div>
+<div class="msg-content">
+Apres 1 semaine de farm</div>
+<div class="msg-content">
+Mont&#233; &#224; +15 &#128515;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/375236799271927808/b662a83ef28cc8711965869dba242dbf.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Floxy#9532">Floxy</span>
+<span class="msg-date">17-janv.-18 11:43 </span>
+<div class="msg-content">
+haha</div>
+<div class="msg-content">
+<span class="mention" title="Borgnasse#4598">@Borgnasse</span>  j&#39;ai trouv&#233; un truc pour toi</div>
+<div class="msg-content">
+<a href="https://drive.google.com/file/d/11Ce_59K9KIH4zPDsrWBJFt7InpSAJ79k/view">https://drive.google.com/file/d/11Ce_59K9KIH4zPDsrWBJFt7InpSAJ79k/view</a></div>
+<div class="msg-content">
+&#224; priori monter les mod gris lvl 3 pourrait &#234;tre pas mal &#128515;</div>
+<div class="msg-content">
+Pour les pauvres comme moi</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">17-janv.-18 12:28 </span>
+<div class="msg-content">
+Haha pas mal <span class="mention" title="Floxy#9532">@Floxy</span> &#128514; <br />Par contre sache qu&#39;un mod gris te donnera au max 5 speed (et plus g&#233;n&#233;ralement 3, voire 4 si tu es chanceux). C&#39;est mieux que rien, mais c&#39;est quand m&#234;me pas terrible.<br />Je me demande s&#39;il a pas invers&#233; les Yes/No apr&#232;s la bulle &quot;Does it have ANY secondaries ?&quot; &#129300; <br />Et c&#39;est un peu oxymorique parce que dans la bulle o&#249; il parle de &quot;rich kid&quot; il dit explicitement qu&#39;il ne faut pas level un mod qui n&#39;a pas D&#201;J&#192; de la vitesse, alors qu&#39;&#224; &quot;No&quot; (horizontal) apr&#232;s le &quot;Does it have ANY secondaries ?&quot; il dit de level le mod niveau 3 &#129300;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/269934171043004426/390e31bca96496bc59b2363f80143b17.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Veskaza#4100">Veskaza</span>
+<span class="msg-date">17-janv.-18 12:54 </span>
+<div class="msg-content">
+Ces Yes et No ont bien &#233;t&#233; inverses  !</div>
+<div class="msg-attachment">
+<a href="https://cdn.discordapp.com/attachments/382256415579963392/403155101184950272/Screenshot_2018-01-17-12-53-16.png">
+<img class="msg-attachment" src="https://cdn.discordapp.com/attachments/382256415579963392/403155101184950272/Screenshot_2018-01-17-12-53-16.png" />
+</a>
+</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">17-janv.-18 12:57 </span>
+<div class="msg-content">
+Et &#224; la fois si le mod a d&#233;j&#224; une stat secondaire, l&#39;am&#233;liorer au niveau 3 ne pourra JAMAIS ajouter de la vitesse (vu qu&#39;on est dans la branche o&#249; la stat secondaire pr&#233;sente n&#39;est PAS de la vitesse)... Je pense qu&#39;il s&#39;est un peu gaufr&#233; dans son chart &#129300; Ou qu&#39;il a pas compris comment fonctionne l&#39;am&#233;lioration des mods &#128556;<span class="msg-edited" title="17-janv.-18 12:58 ">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/269934171043004426/390e31bca96496bc59b2363f80143b17.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Veskaza#4100">Veskaza</span>
+<span class="msg-date">17-janv.-18 01:04 </span>
+<div class="msg-content">
+Oui il s&#39;est plant&#233;. La vitesse peut tr&#232;s bien  appara&#238;tre lors du l&#39;upgrade &#224; 6, 9 ou 12.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">17-janv.-18 01:10 </span>
+<div class="msg-content">
+Oui mais &#224; ce moment l&#224; la plupart du temps &#231;a sera un mod avec 3 en vitesse, et du coup on retombe dans le cas de la premi&#232;re case en haut &#224; gauche o&#249; il pr&#233;cise bien que c&#39;est de la merde &#129300;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/375236799271927808/b662a83ef28cc8711965869dba242dbf.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Floxy#9532">Floxy</span>
+<span class="msg-date">17-janv.-18 04:40 </span>
+<div class="msg-content">
+<span class="mention" title="Borgnasse#4598">@Borgnasse</span> <span class="mention" title="Veskaza#4100">@Veskaza</span>  vous m&#39;avez cass&#233; haha</div>
+<div class="msg-content">
+en gros ce que j&#39;ai retenu c&#39;est un mod vert avec une stat secondaire qui n&#39;est pas de la vitesse, &#231;a ne sert &#224; rien de lvl up</div>
+<div class="msg-content">
+si t&#39;es pauvres il vaut mieux monter des mod gris lvl 3</div>
+<div class="msg-content">
+<span class="mention" title="Borgnasse#4598">@Borgnasse</span>  t&#39;es sur qu&#39;un mod gris ne peut pas avoir plus de 5 en vitesse ?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">17-janv.-18 05:04 </span>
+<div class="msg-content">
+<span class="mention" title="Floxy#9532">@Floxy</span> meuh non c&#39;&#233;tait pas pour te casser ! C&#39;est juste parce que je trouve important que chacun ait des informations justes pour pas induire en erreur.<br />Pour les mods gris, aux lvl 3, 6, 9 et 12 il y aura une stat secondaire suppl&#233;mentaire ajout&#233;e, mais jamais d&#39;augmentation de stat. La vitesse en secondaire et sans augmentation est g&#233;n&#233;ralement &#224; 3, plus rarement &#224; 4, et max &#224; 5.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/375236799271927808/b662a83ef28cc8711965869dba242dbf.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Floxy#9532">Floxy</span>
+<span class="msg-date">17-janv.-18 05:06 </span>
+<div class="msg-content">
+ok merci pour l&#39;info &#128515;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">17-janv.-18 05:07 </span>
+<div class="msg-content">
+Pinned a message.</div>
+<div class="msg-content">
+<span class="mention" title="Floxy#9532">@Floxy</span> je t&#39;ai &#233;pingl&#233; mon post sur la mani&#232;re dont les mods augmentent les stats au fur et &#224; mesure des levels</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/375236799271927808/b662a83ef28cc8711965869dba242dbf.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Floxy#9532">Floxy</span>
+<span class="msg-date">17-janv.-18 05:09 </span>
+<div class="msg-content">
+Parfait ! c&#39;est exactement ce qu&#39;il me fallait !! merci !</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/349556601608208395/c57c960260727093bfce07d4d4744545.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Blank#8467">Blank</span>
+<span class="msg-date">18-janv.-18 07:38 </span>
+<div class="msg-content">
+<a href="https://docs.google.com/spreadsheets/d/1w12CbP1ZyJKIZBttC1GAXbo0Q6Rb5YoSQp4eu">https://docs.google.com/spreadsheets/d/1w12CbP1ZyJKIZBttC1GAXbo0Q6Rb5YoSQp4eu</a><i>U</i>WJY/edit#gid=0</div>
+<div class="msg-content">
+cadeau</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/375236799271927808/b662a83ef28cc8711965869dba242dbf.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Floxy#9532">Floxy</span>
+<span class="msg-date">19-janv.-18 03:17 </span>
+<div class="msg-content">
+Propre.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/375236799271927808/b662a83ef28cc8711965869dba242dbf.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Floxy#9532">Floxy</span>
+<span class="msg-date">21-janv.-18 10:52 </span>
+<div class="msg-content">
+D&#233;bloqu&#233; Mod CC 3* ouh yeah</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/embed/avatars/3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="neomike#4563">neomike</span>
+<span class="msg-date">21-janv.-18 12:19 </span>
+<div class="msg-content">
+Du coup c&#39;est qui t&#39;es 2 derniers vauriens : chew et?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">21-janv.-18 12:22 </span>
+<div class="msg-content">
+<span class="mention" title="neomike#4563">@neomike</span> Cad Bane et Chew : <a href="https://swgoh.gg/u/floxydoxy/collection/?f=scoundrel">https://swgoh.gg/u/floxydoxy/collection/?f=scoundrel</a></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/375236799271927808/b662a83ef28cc8711965869dba242dbf.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Floxy#9532">Floxy</span>
+<span class="msg-date">21-janv.-18 12:39 </span>
+<div class="msg-content">
+yes</div>
+<div class="msg-content">
+Cad Bane n&#39;est vraiment pas le meilleure mais c&#39;ets le plus simple &#224; farm et il fait le caf&#233;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">21-janv.-18 12:43 </span>
+<div class="msg-content">
+IG-88 est un tr&#232;s bon vaurien &#224; up &#128521;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/375236799271927808/b662a83ef28cc8711965869dba242dbf.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Floxy#9532">Floxy</span>
+<span class="msg-date">21-janv.-18 12:47 </span>
+<div class="msg-content">
+Oui</div>
+<div class="msg-content">
+mais avant j&#39;avais : STHan, Ackbar, Tarkin, Leia</div>
+<div class="msg-content">
+&#224; farmer</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">21-janv.-18 12:47 </span>
+<div class="msg-content">
+Il aura plus d&#39;utilit&#233; &#224; court terme que Cad Bane</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/375236799271927808/b662a83ef28cc8711965869dba242dbf.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Floxy#9532">Floxy</span>
+<span class="msg-date">21-janv.-18 12:47 </span>
+<div class="msg-content">
+lol</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">21-janv.-18 12:48 </span>
+<div class="msg-content">
+Tu peux le up 5* &#231;a suffit largement</div>
+<div class="msg-content">
+Mais je comprends bien c&#39;est la bataille dans les chargements d&#39;ar&#232;ne &#128515;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/375236799271927808/b662a83ef28cc8711965869dba242dbf.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Floxy#9532">Floxy</span>
+<span class="msg-date">21-janv.-18 12:48 </span>
+<div class="msg-content">
+oui &#128516;</div>
+<div class="msg-content">
+le pire des stores...</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/339084280783175691/c20c07b26619ca663d0011ea95f21f71.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Borgnasse#4598">Borgnasse</span>
+<span class="msg-date">21-janv.-18 12:49 </span>
+<div class="msg-content">
+Ca va beaucoup plus vite pour moi maintenant que je place environ 150 en ar&#232;ne. Quand j&#39;&#233;tais &#224; 2500 c&#39;&#233;tait looooooong &#128514;<span class="msg-edited" title="21-janv.-18 12:49 ">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/375236799271927808/b662a83ef28cc8711965869dba242dbf.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Floxy#9532">Floxy</span>
+<span class="msg-date">21-janv.-18 12:49 </span>
+<div class="msg-content">
+oui j&#39;imagine &#128516;</div>
+<div class="msg-content">
+bah mini 10 shards par jour &#128515;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/embed/avatars/3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="neomike#4563">neomike</span>
+<span class="msg-date">21-janv.-18 01:43 </span>
+<div class="msg-content">
+Moi du coup je fais avec dengar il appara&#238;t souvent &#224; la boutique et dans boutique de guilde<br />Il doit servir aussi en rancor</div>
+</div>
+</div>
+</div>
+</body>
+</html>
